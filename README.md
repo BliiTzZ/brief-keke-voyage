@@ -9,6 +9,7 @@
  4. [Règles de gestion](#règles-de-gestion)
  5. [Dictionnaire de données](#dictionnaire-de-données)
  6. [Modèle Conceptuel des Données](#modèle-conceptuel-des-données)
+ 7. [Modèle Logique des Données](#modèle-logique-des-données)
 
 ## Contexte du projet
 
@@ -41,13 +42,13 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 
 ### Pour la base de données
 
-- [ ] Un MCD,
-- [ ] Un MLD,
+- [x] Un MCD,
+- [x] Un MLD,
 - [ ] Un MPD.
 
 ### Pour l'application
 
-- [ ] Un dictionnaire de données,
+- [x] Un dictionnaire de données,
 - [x] Des règles de gestion,
 - [ ] Un diagramme de cas d'utilisation,
 - [ ] Un diagramme de classe,
@@ -128,9 +129,27 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 | name_country            | Nom d'un pays                                                                                        | A    | 50     |                              |
 
 ## Modèle Conceptuel des Données
+
 Cliquer sur le MCD pour l'atteindre :
 
 [![mcd.png](./Database/mcd.png)](./Database/mcd.png)
+
+## Modèle Logique des Données
+
+**Modèle Logique des Données textuel:**
+
+**Company** = (**id_company** COUNTER, iata_code VARCHAR(10), name VARCHAR(50));  
+**Country** = (**id_country** COUNTER, name VARCHAR(50));  
+**City** = (**id_city** COUNTER, name TEXT, **#id_country**);  
+**airport** = (**id_airport** COUNTER, name VARCHAR(50), iata_code VARCHAR(10), **#id_city**);  
+**Flight** = (**id_flight** COUNTER, date_departure DATETIME, date_arrival DATETIME, number_of_flight VARCHAR(10), state INT, **#id_airport_arrive**, **#id_airport_depart**);  
+**Booking** = (**id_booking** COUNTER, number_booking VARCHAR(20), passport VARCHAR(9), last_name VARCHAR(50), first_name VARCHAR(50), date_of_birth DATE, email VARCHAR(100), phone_number VARCHAR(50), price DECIMAL(15,2), state INT, date_booking VARCHAR(50), **#id_flight**);  
+**engage** = (**#id_flight**, **#id_company**);  
+**stopover** = (**#id_flight**, **#id_airport**, date_departure DATETIME, date_arrival DATETIME);  
+
+Cliquer sur le MLD pour l'afficher :
+
+[![mld.jpg](./Database/mld.jpg)](./Database/mld.jpg)
 
 *Ce projet a été réalisé en travail de groupe par :*
 - ***Yacine Ponsot***
