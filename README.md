@@ -14,6 +14,7 @@
  9. [UML (Unified Modeling Language)](#uml-unified-modeling-language)  
    9.1. [Diagramme use case](#diagramme-use-case)  
    9.2. [Diagramme de classe](#diagramme-de-classe)  
+   9.3. [Diagramme de séquence](#diagramme-de-séquence)  
 
 ## Contexte du projet
 
@@ -56,7 +57,7 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 - [x] Des règles de gestion,
 - [x] Un diagramme de cas d'utilisation,
 - [x] Un diagramme de classe,
-- [ ] Un diagramme de séquence.
+- [x] Un diagramme de séquence.
 
 ## Règles de gestion
 
@@ -255,6 +256,11 @@ Cliquer sur le diagramme pour l'afficher :
 Cliquer sur le diagramme pour l'afficher :
 
 [![class-diagram.png](./UML/class-diagram.png)](./UML/class-diagram.png)
+
+### Diagramme de séquence
+Cliquer sur le diagramme pour l'afficher :
+
+[![sequence-diagram.png](./UML/sequence-diagram.png)](./UML/sequence-diagram.png)
 
 *Ce projet a été réalisé en travail de groupe par :*
 - ***Yacine Ponsot***
