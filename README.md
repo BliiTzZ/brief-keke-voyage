@@ -7,7 +7,8 @@
    3.1. [Pour la base de données](#pour-la-base-de-données)  
    3.2. [Pour l'application](#pour-lapplication)
  4. [Règles de gestion](#règles-de-gestion)
- 5.  [Dictionnaire de données](#dictionnaire-de-données)
+ 5. [Dictionnaire de données](#dictionnaire-de-données)
+ 6. [Modèle Conceptuel des Données](#modèle-conceptuel-des-données)
 
 ## Contexte du projet
 
@@ -125,6 +126,11 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 | iata_code_airport       | Identifiant de localisation                                                                          | AN   | 10     |                              |
 | name_city               | Nom d'une ville                                                                                      | A    | 50     |                              |
 | name_country            | Nom d'un pays                                                                                        | A    | 50     |                              |
+
+## Modèle Conceptuel des Données
+Cliquer sur le MCD pour l'atteindre :
+
+[![mcd.png](./Database/mcd.png)](./Database/mcd.png)
 
 *Ce projet a été réalisé en travail de groupe par :*
 - ***Yacine Ponsot***
