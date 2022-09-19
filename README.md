@@ -13,6 +13,7 @@
  8. [Modèle Physique des Données](#modèle-physique-des-données)
  9. [UML (Unified Modeling Language)](#uml-unified-modeling-language)  
    9.1. [Diagramme use case](#diagramme-use-case)  
+   9.2. [Diagramme de classe](#diagramme-de-classe)  
 
 ## Contexte du projet
 
@@ -54,7 +55,7 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 - [x] Un dictionnaire de données,
 - [x] Des règles de gestion,
 - [x] Un diagramme de cas d'utilisation,
-- [ ] Un diagramme de classe,
+- [x] Un diagramme de classe,
 - [ ] Un diagramme de séquence.
 
 ## Règles de gestion
@@ -249,6 +250,11 @@ CREATE TABLE stopover(
 Cliquer sur le diagramme pour l'afficher :
 
 [![use-case-diagram.png](./UML/use-case-diagram.png)](./UML/use-case-diagram.png)
+
+### Diagramme de classe
+Cliquer sur le diagramme pour l'afficher :
+
+[![class-diagram.png](./UML/class-diagram.png)](./UML/class-diagram.png)
 
 *Ce projet a été réalisé en travail de groupe par :*
 - ***Yacine Ponsot***
