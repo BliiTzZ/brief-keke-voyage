@@ -11,6 +11,8 @@
  6. [Modèle Conceptuel des Données](#modèle-conceptuel-des-données)
  7. [Modèle Logique des Données](#modèle-logique-des-données)
  8. [Modèle Physique des Données](#modèle-physique-des-données)
+ 9. [UML (Unified Modeling Language)](#uml-unified-modeling-language)  
+   9.1. [Diagramme use case](#diagramme-use-case)  
 
 ## Contexte du projet
 
@@ -51,7 +53,7 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 
 - [x] Un dictionnaire de données,
 - [x] Des règles de gestion,
-- [ ] Un diagramme de cas d'utilisation,
+- [x] Un diagramme de cas d'utilisation,
 - [ ] Un diagramme de classe,
 - [ ] Un diagramme de séquence.
 
@@ -239,6 +241,14 @@ CREATE TABLE stopover(
   FOREIGN KEY(id_airport) REFERENCES airport(id_airport)
 );
 ```
+
+## UML (Unified Modeling Language)
+
+### Diagramme use case
+
+Cliquer sur le diagramme pour l'afficher :
+
+[![use-case-diagram.png](./UML/use-case-diagram.png)](./UML/use-case-diagram.png)
 
 *Ce projet a été réalisé en travail de groupe par :*
 - ***Yacine Ponsot***
