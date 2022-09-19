@@ -121,12 +121,12 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 | price_booking           | Prix du vol                                                                                          | N    | 15     |                              |
 | state_booking           | Définit le statut de la réservation, en attente, confirmer par la compagnie, annuler par le passager | N    |        |                              |
 | date_booking            | Date de la réservation                                                                               | DATE |        | Au format AAAA-JJ-MM         |
-| date_departure_flight   | Date et l'heure du départ du vol                                                                     | DATE |        | Au format AAAA-JJ-MM h\:m\:s |
-| date_arrival_flight     | Date et l'heure du arrivée du vol                                                                    | DATE |        | Au format AAAA-JJ-MM h\:m\:s |
+| date_departure_flight   | Date et l'heure du départ du vol                                                                     | DATE |        | Au format AAAA-JJ-MM h :m :s |
+| date_arrival_flight     | Date et l'heure du arrivée du vol                                                                    | DATE |        | Au format AAAA-JJ-MM h :m :s |
 | number_of_flight        | Numéro d'identification du vol                                                                       | AN   | 10     |                              |
 | state_flight            | Définit le statut du vol, annuler, ouvert, fermer                                                    | N    |        |                              |
-| date_departure_stopover | Date et l'heure du départ de l'escale                                                                | DATE |        | Au format AAAA-JJ-MM h\:m\:s |
-| date_arrival_stopover   | Date et l'heure du arrivée de l'escale                                                               | DATE |        | Au format AAAA-JJ-MM h\:m\:s |
+| date_departure_stopover | Date et l'heure du départ de l'escale                                                                | DATE |        | Au format AAAA-JJ-MM h :m :s |
+| date_arrival_stopover   | Date et l'heure du arrivée de l'escale                                                               | DATE |        | Au format AAAA-JJ-MM h :m :s |
 | name_company            | Nom de la compagnie                                                                                  | AN   | 50     |                              |
 | iata_code_company       | Identifiant de la compagnie aérienne                                                                 | AN   | 10     |                              |
 | nom_airport             | Nom de l'aéroport                                                                                    | A    | 50     |                              |
