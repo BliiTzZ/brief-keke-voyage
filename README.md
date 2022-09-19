@@ -15,6 +15,7 @@
    9.1. [Diagramme use case](#diagramme-use-case)  
    9.2. [Diagramme de classe](#diagramme-de-classe)  
    9.3. [Diagramme de séquence](#diagramme-de-séquence)  
+ 10. [Sources](#sources)
 
 ## Contexte du projet
 
@@ -261,6 +262,18 @@ Cliquer sur le diagramme pour l'afficher :
 Cliquer sur le diagramme pour l'afficher :
 
 [![sequence-diagram.png](./UML/sequence-diagram.png)](./UML/sequence-diagram.png)
+
+## Sources
+
+### sites internet
+- https://ineumann.developpez.com/tutoriels/merise/initiation-merise/  
+- https://creately.com/blog/fr/uncategorized-fr/tutoriel-sur-les-diagrammes-de-classe/  
+- http://grand.patrice.free.fr/net/courscharp/chap4/
+
+### Vidéos youtube
+- https://www.youtube.com/watch?v=GC5BdRve38A&ab_channel=DelphineLonguet  
+- https://www.youtube.com/watch?v=8VMMu-vcF60&t=407s&ab_channel=DelphineLonguet  
+- https://www.youtube.com/watch?v=fPm5NrvmXHc&t=771s&ab_channel=DelphineLonguet  
 
 *Ce projet a été réalisé en travail de groupe par :*
 - ***Yacine Ponsot***
