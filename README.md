@@ -6,6 +6,7 @@
  3. [Livrable](#livrable)  
    3.1. [Pour la base de données](#pour-la-base-de-données)  
    3.2. [Pour l'application](#pour-lapplication)
+ 4. [Règles de gestion](#règles-de-gestion)
 
 ## Contexte du projet
 
@@ -45,10 +46,57 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 ### Pour l'application
 
 - [ ] Un dictionnaire de données,
-- [ ] Des règles de gestion,
+- [x] Des règles de gestion,
 - [ ] Un diagramme de cas d'utilisation,
 - [ ] Un diagramme de classe,
 - [ ] Un diagramme de séquence.
+
+## Règles de gestion
+
+### Client
+
+- Peut réserver pour un ou plusieurs passagers.
+
+### Réservation
+
+- Concerne qu'un seul vol et un seul passager,
+- Peut être annulée ou confirmée,
+- Contient un numéro de réservation,
+- Contient un nom, prénom et numéro de téléphone.
+
+### Vol
+
+- Contient un numéro de vol,
+- Contient un aéroport de départ, une date et une heure,
+- Contient un aéroport d'arrivée, une date et une heure,
+- Contient un ou plusieurs passagers,
+- Peut être ouvert à la réservation ou non par la compagnie,
+- Peut être annulé par la compagnie,
+- Peut faire des escales dans un aéroport,
+- Est un trajet d'un aéroport de départ à un aéroport d'arrivé.
+
+### Aéroport
+
+- Se trouve dans une ville.
+
+### Escale
+
+- Se fait dans un aéroport,
+- Contient une date et une heure d'arrivée,
+- Contient une date et une heure de départ.
+
+### Compagnie
+
+- Propose différents vols,
+- Contient un nom.
+
+### Ville
+
+- Contient un nom.
+
+### Pays
+
+- Contient un nom.
   
 *Ce projet a été réalisé en travail de groupe par :*
 - ***Yacine Ponsot***
